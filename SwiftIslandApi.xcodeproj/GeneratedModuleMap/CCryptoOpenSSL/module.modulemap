@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/paulp/Sites/SwiftIslandApi/.build/checkouts/crypto/Sources/CCryptoOpenSSL/include"
+    export *
+}
