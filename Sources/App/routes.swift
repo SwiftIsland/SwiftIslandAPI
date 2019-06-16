@@ -11,6 +11,17 @@ public func routes(_ router: Router) throws {
   }
 
   router.get("schedule") { req -> Response in
+    let logger = try req.sharedContainer.make(Logger.self)
+
+    let timeScheduleAvailable = Date(timeIntervalSince1970: 1562050800)
+    logger.info("Current date: \(Date())")
+    logger.info("timeScheduleAvailable: \(timeScheduleAvailable)")
+    print("Date: \(Date()), timeScheduleAvailable: \(timeScheduleAvailable)")
+
+    if Date() < timeScheduleAvailable {
+//      throw Abort(.noContent)
+    }
+
     return try getJsonFromFile("schedule.json", onRequest: req)
   }
 
