@@ -8180,13 +8180,11 @@
                "$(SRCROOT)/SwiftIslandApi.xcodeproj/GeneratedModuleMap/CCryptoOpenSSL"
             );
             INFOPLIST_FILE = "SwiftIslandApi.xcodeproj/Run_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
                "@executable_path"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
                "$(inherited)",
                "-I/usr/local/Cellar/libressl/2.7.4/include",
@@ -8218,10 +8216,8 @@
             );
             SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
             SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "5.0";
+            SWIFT_VERSION = "4.2";
             TARGET_NAME = "Run";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Debug";
       };
@@ -8255,13 +8251,11 @@
                "$(SRCROOT)/SwiftIslandApi.xcodeproj/GeneratedModuleMap/CCryptoOpenSSL"
             );
             INFOPLIST_FILE = "SwiftIslandApi.xcodeproj/Run_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx",
                "@executable_path"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
                "$(inherited)",
                "-I/usr/local/Cellar/libressl/2.7.4/include",
@@ -8293,10 +8287,8 @@
             );
             SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
             SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "5.0";
+            SWIFT_VERSION = "4.2";
             TARGET_NAME = "Run";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Release";
       };
@@ -9188,7 +9180,7 @@
             LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
                "-swift-version",
-               "5",
+               "4.2",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
                "-target",
@@ -9196,7 +9188,7 @@
                "-sdk",
                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
-            SWIFT_VERSION = "5.0";
+            SWIFT_VERSION = "4.2";
          };
          name = "Debug";
       };
@@ -9206,7 +9198,7 @@
             LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
                "-swift-version",
-               "5",
+               "4.2",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
                "-target",
@@ -9214,7 +9206,7 @@
                "-sdk",
                "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
-            SWIFT_VERSION = "5.0";
+            SWIFT_VERSION = "4.2";
          };
          name = "Release";
       };
@@ -15543,47 +15535,47 @@
       "OBJ_677" = {
          isa = "PBXGroup";
          children = (
-            "swift-nio::NIOWebSocket::Product",
-            "swift-nio::NIO::Product",
-            "swift-nio::NIOFoundationCompat::Product",
-            "Routing::Routing::Product",
             "swift-nio::NIOConcurrencyHelpers::Product",
-            "Console::Console::Product",
-            "Core::Async::Product",
-            "SwiftIslandApi::Run::Product",
-            "Service::Service::Product",
-            "Crypto::CCryptoOpenSSL::Product",
-            "swift-nio::CNIOZlib::Product",
-            "swift-nio::CNIODarwin::Product",
-            "Crypto::CBase32::Product",
-            "SwiftIslandApi::App::Product",
-            "HTTP::HTTP::Product",
-            "TemplateKit::TemplateKit::Product",
-            "WebSocket::WebSocket::Product",
-            "swift-nio::NIOTLS::Product",
-            "Crypto::Random::Product",
-            "Console::Logging::Product",
-            "SwiftIslandApi::AppTests::Product",
-            "Crypto::Crypto::Product",
-            "Vapor::Vapor::Product",
             "Console::Command::Product",
-            "swift-nio::CNIOSHA1::Product",
-            "Multipart::Multipart::Product",
-            "swift-nio::NIOHTTP1::Product",
-            "swift-nio-ssl::NIOOpenSSL::Product",
-            "swift-nio::NIOPriorityQueue::Product",
-            "swift-nio::CNIOHTTPParser::Product",
-            "URLEncodedForm::URLEncodedForm::Product",
-            "Core::COperatingSystem::Product",
-            "Core::Debugging::Product",
-            "Validation::Validation::Product",
-            "swift-nio-ssl::CNIOOpenSSL::Product",
-            "DatabaseKit::DatabaseKit::Product",
-            "Core::Core::Product",
             "Crypto::CBcrypt::Product",
-            "swift-nio::CNIOAtomics::Product",
+            "SwiftIslandApi::Run::Product",
+            "SwiftIslandApi::App::Product",
+            "swift-nio::NIOHTTP1::Product",
+            "Core::COperatingSystem::Product",
+            "swift-nio::CNIODarwin::Product",
+            "TemplateKit::TemplateKit::Product",
+            "Crypto::Random::Product",
+            "swift-nio-ssl::NIOOpenSSL::Product",
+            "Routing::Routing::Product",
+            "Crypto::CCryptoOpenSSL::Product",
+            "Core::Core::Product",
+            "Console::Logging::Product",
+            "Crypto::Crypto::Product",
+            "Crypto::CBase32::Product",
+            "swift-nio::NIOTLS::Product",
+            "Core::Async::Product",
+            "swift-nio::CNIOZlib::Product",
+            "Core::Bits::Product",
+            "SwiftIslandApi::AppTests::Product",
             "swift-nio::CNIOLinux::Product",
-            "Core::Bits::Product"
+            "Service::Service::Product",
+            "swift-nio::NIOPriorityQueue::Product",
+            "swift-nio::NIOWebSocket::Product",
+            "Console::Console::Product",
+            "swift-nio::NIO::Product",
+            "URLEncodedForm::URLEncodedForm::Product",
+            "Vapor::Vapor::Product",
+            "DatabaseKit::DatabaseKit::Product",
+            "Validation::Validation::Product",
+            "HTTP::HTTP::Product",
+            "WebSocket::WebSocket::Product",
+            "Core::Debugging::Product",
+            "swift-nio::CNIOHTTPParser::Product",
+            "swift-nio-ssl::CNIOOpenSSL::Product",
+            "Multipart::Multipart::Product",
+            "swift-nio::CNIOAtomics::Product",
+            "swift-nio::CNIOSHA1::Product",
+            "swift-nio::NIOFoundationCompat::Product"
          );
          name = "Products";
          path = "";
@@ -15702,12 +15694,10 @@
                "$(SRCROOT)/SwiftIslandApi.xcodeproj/GeneratedModuleMap/CCryptoOpenSSL"
             );
             INFOPLIST_FILE = "SwiftIslandApi.xcodeproj/App_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
                "$(inherited)",
                "-I/usr/local/Cellar/libressl/2.7.4/include",
@@ -15741,10 +15731,8 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "5.0";
+            SWIFT_VERSION = "4.2";
             TARGET_NAME = "App";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Debug";
       };
@@ -15774,12 +15762,10 @@
                "$(SRCROOT)/SwiftIslandApi.xcodeproj/GeneratedModuleMap/CCryptoOpenSSL"
             );
             INFOPLIST_FILE = "SwiftIslandApi.xcodeproj/App_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
                "$(inherited)",
                "-I/usr/local/Cellar/libressl/2.7.4/include",
@@ -15813,10 +15799,8 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "5.0";
+            SWIFT_VERSION = "4.2";
             TARGET_NAME = "App";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Release";
       };
@@ -16312,13 +16296,11 @@
                "$(SRCROOT)/SwiftIslandApi.xcodeproj/GeneratedModuleMap/CCryptoOpenSSL"
             );
             INFOPLIST_FILE = "SwiftIslandApi.xcodeproj/AppTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "@loader_path/../Frameworks",
                "@loader_path/Frameworks"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
                "$(inherited)",
                "-I/usr/local/Cellar/libressl/2.7.4/include",
@@ -16348,10 +16330,8 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "5.0";
+            SWIFT_VERSION = "4.2";
             TARGET_NAME = "AppTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Debug";
       };
@@ -16382,13 +16362,11 @@
                "$(SRCROOT)/SwiftIslandApi.xcodeproj/GeneratedModuleMap/CCryptoOpenSSL"
             );
             INFOPLIST_FILE = "SwiftIslandApi.xcodeproj/AppTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "@loader_path/../Frameworks",
                "@loader_path/Frameworks"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
                "$(inherited)",
                "-I/usr/local/Cellar/libressl/2.7.4/include",
@@ -16418,10 +16396,8 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "5.0";
+            SWIFT_VERSION = "4.2";
             TARGET_NAME = "AppTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Release";
       };

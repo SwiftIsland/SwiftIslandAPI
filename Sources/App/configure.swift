@@ -1,6 +1,6 @@
 import Vapor
-import Fluent
-import FluentSQLite
+//import Fluent
+//import FluentSQLite
 
 /// Called before your application initializes.
 ///
@@ -19,10 +19,10 @@ public func configure(
   let directoryConfig = DirectoryConfig.detect()
   services.register(directoryConfig)
 
-  try services.register(FluentSQLiteProvider())
-
-  var databaseConfig = DatabasesConfig()
-  let db = try SQLiteDatabase(storage: .file(path: "\(directoryConfig.workDir)swiftIsland.db"))
-  databaseConfig.add(database: db, as: .sqlite)
-  services.register(databaseConfig)
+//  try services.register(FluentSQLiteProvider())
+//
+//  var databaseConfig = DatabasesConfig()
+//  let db = try SQLiteDatabase(storage: .file(path: "\(directoryConfig.workDir)swiftIsland.db"))
+//  databaseConfig.add(database: db, as: .sqlite)
+//  services.register(databaseConfig)
 }
