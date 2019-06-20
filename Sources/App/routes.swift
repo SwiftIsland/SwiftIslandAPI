@@ -17,7 +17,7 @@ public func routes(_ router: Router) throws {
     logger.info("Current date: \(Date())")
     logger.info("timeScheduleAvailable: \(timeScheduleAvailable)")
 
-    if Date() < timeScheduleAvailable {
+    if Date() > timeScheduleAvailable {
       throw Abort(.notFound, reason: "The schedule will be available at \(timeScheduleAvailable)")
     }
 
