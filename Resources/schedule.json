@@ -1,103 +1,199 @@
 [
   {
-    "date": "2019-06-03T00:00:00.000Z",
-    "title": "First day",
+    "date": "2019-07-02T00:00:00.000+0200",
+    "title": "Arrival Day",
     "activities": [
       {
         "id": "1",
-        "title": "Intro",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum gravida est. Proin ultricies sapien ut fringilla egestas. Quisque tempus volutpat lorem nec ornare. Curabitur a accumsan justo. Proin orci nisl, lobortis in egestas pharetra, cursus et sem. Integer placerat convallis nisi, et aliquet dui finibus dignissim. Sed id ullamcorper tortor. Nunc viverra nunc ex, nec ornare nibh commodo quis. Sed sagittis vel purus et ornare. Donec vitae condimentum sem, in dictum elit. Vivamus sodales sit amet libero vitae mattis. Nam imperdiet lacinia nulla, eget consequat mi luctus vitae. Nam lacinia, elit a congue finibus, libero dui gravida erat, sed gravida sem libero sit amet quam. Aliquam pharetra scelerisque volutpat.",
-        "datefrom": "2019-06-03T09:00:00.000Z",
-        "dateto": "2019-06-03T09:15:00.000Z",
-        "area": "Main area",
-        "mentor": 0
-      },
-      {
-        "id": "2",
-        "title": "Presentation",
-        "description": "Quisque vitae sollicitudin neque, eu iaculis velit. Morbi non semper ante. Quisque non ex libero. Suspendisse dictum molestie libero, sed mollis lorem aliquet eget. Donec molestie, quam sit amet interdum sagittis, neque lacus rutrum nunc, eget interdum neque mauris ut orci. Phasellus et ex felis. Sed et lorem in purus mollis volutpat. Proin ut dictum dui. Vivamus id orci blandit, sollicitudin lorem eu, elementum metus. Duis quis imperdiet sem. Nam tempor mauris augue, sed ultricies ipsum tincidunt a. Vestibulum ac sapien ut metus imperdiet auctor eget ac elit.",
-        "datefrom": "2019-06-03T09:15:00.000Z",
-        "dateto": "2019-06-03T11:15:00.000Z",
-        "area": "Tent",
-        "mentor": 0
-      },
-      {
-        "id": "30",
-        "title": "First workshop",
-        "description": "Short text",
-        "datefrom": "2019-06-03T11:15:00.000Z",
-        "dateto": "2019-06-03T12:15:00.000Z",
-        "concurrent": [
-          {
-            "id": "31",
-            "title": "What's new in XCode",
-            "description": "Short text",
-            "datefrom": "2019-06-03T11:15:00.000Z",
-            "dateto": "2019-06-03T12:15:00.000Z",
-            "area": "Tent",
-            "mentor": 0
-          },
-          {
-            "id": "32",
-            "title": "Working with Instruments",
-            "description": "Short text",
-            "datefrom": "2019-06-03T11:15:00.000Z",
-            "dateto": "2019-06-03T12:15:00.000Z",
-            "area": "Tent",
-            "mentor": 1
-          },
-          {
-            "id": "32",
-            "title": "ARKit light",
-            "description": "Short text",
-            "datefrom": "2019-06-03T11:15:00.000Z",
-            "dateto": "2019-06-03T12:15:00.000Z",
-            "area": "Tent",
-            "mentor": 2
-          }
-        ]
-      },
-      {
-        "id": "3",
-        "title": "Lunch",
-        "description": "Short text",
-        "datefrom": "2019-06-03T14:15:00.000Z",
-        "dateto": "2019-06-03T15:15:00.000Z",
-        "area": "Tent",
-        "mentor": 0
+        "title": "Start of Check-in",
+        "description": "Come collect your badge and room or bungalow key.",
+        "datefrom": "2019-07-02T12:00:00.000+0200",
+        "dateto": "2019-07-02T21:00:00.000+0200",
+        "area": "Hotel Reception"
       }
     ]
   },
   {
-    "date": "2019-06-04T00:00:00.000Z",
+    "date": "2019-07-03T00:00:00.000+0200",
+    "title": "First day",
+    "activities": [
+      {
+        "description": "",
+        "id": "2",
+        "title": "Breakfast",
+        "datefrom": "2019-07-03T07:30:00.000+0200",
+        "dateto": "2019-07-03T08:30:00.000+0200",
+        "area": "Tent",
+        "mentor": 0
+      },
+      {
+        "description 2": "",
+        "id": "3",
+        "title": "Opening & Mentor presentations",
+        "description": "Sidney and Niels welcome everyone and the mentors have short pitches to inform you which workshop to attend",
+        "datefrom": "2019-07-03T09:00:00.000+0200",
+        "dateto": "2019-07-03T09:30:00.000+0200",
+        "area": "Restaurant"
+      },
+      {
+        "description": "",
+        "id": "4",
+        "title": "First Workshop Session",
+        "datefrom": "2019-07-03T10:00:00.000+0200",
+        "dateto": "2019-07-03T12:00:00.000+0200"
+      },
+      {
+        "id": "7",
+        "title": "Lunch",
+        "datefrom": "2019-07-03T12:00:00.000+0200",
+        "area": "Tent",
+        "description": "",
+        "dateto": "2019-07-03T13:00:00.000+0200"
+      },
+      {
+        "description": "",
+        "id": "5",
+        "title": "Second Workshop Session",
+        "datefrom": "2019-07-03T13:00:00.000+0200",
+        "dateto": "2019-07-03T15:00:00.000+0200"
+      },
+      {
+        "description": "",
+        "id": "8",
+        "title": "Break",
+        "datefrom": "2019-07-03T15:00:00.000+0200",
+        "dateto": "2019-07-03T15:30:00.000+0200"
+      },
+      {
+        "description": "",
+        "id": "6",
+        "title": "Third Workshop Session",
+        "datefrom": "2019-07-03T15:30:00.000+0200",
+        "dateto": "2019-07-03T17:30:00.000+0200"
+      },
+      {
+        "id": "7",
+        "title": "Dinner",
+        "datefrom": "2019-07-03T18:30:00.000+0200",
+        "area": "Restaurant",
+        "description": "BBQ",
+        "dateto": "2019-07-03T20:00:00.000+0200"
+      },
+      {
+        "id": "7",
+        "title": "Pubquiz",
+        "datefrom": "2019-07-03T20:30:00.000+0200",
+        "area": "Tent",
+        "description": "",
+        "dateto": "2019-07-03T22:00:00.000+0200"
+      }
+    ]
+  },
+  {
+    "date": "2019-07-04T00:00:00.000+0200",
     "title": "Second day",
     "activities": [
       {
+        "description": "",
+        "id": "2",
+        "title": "Breakfast",
+        "datefrom": "2019-07-04T07:30:00.000+0200",
+        "dateto": "2019-07-04T08:30:00.000+0200",
+        "area": "Tent",
+        "mentor": 0
+      },
+      {
+        "description 2": "",
+        "id": "3",
+        "title": "Mentor presentations",
+        "description": "",
+        "datefrom": "2019-07-04T09:00:00.000+0200",
+        "dateto": "2019-07-04T09:30:00.000+0200",
+        "area": "Restaurant"
+      },
+      {
+        "description": "",
         "id": "4",
-        "title": "First activity",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vestibulum gravida est. Proin ultricies sapien ut fringilla egestas. Quisque tempus volutpat lorem nec ornare. Curabitur a accumsan justo. Proin orci nisl, lobortis in egestas pharetra, cursus et sem. Integer placerat convallis nisi, et aliquet dui finibus dignissim. Sed id ullamcorper tortor. Nunc viverra nunc ex, nec ornare nibh commodo quis. Sed sagittis vel purus et ornare. Donec vitae condimentum sem, in dictum elit. Vivamus sodales sit amet libero vitae mattis. Nam imperdiet lacinia nulla, eget consequat mi luctus vitae. Nam lacinia, elit a congue finibus, libero dui gravida erat, sed gravida sem libero sit amet quam. Aliquam pharetra scelerisque volutpat.",
-        "datefrom": "2019-06-03T09:00:00.000Z",
-        "dateto": "2019-06-03T09:15:00.000Z",
-        "area": "Main area",
-        "mentor": 0
+        "title": "First Workshop Session",
+        "datefrom": "2019-07-04T10:00:00.000+0200",
+        "dateto": "2019-07-04T12:00:00.000+0200"
       },
       {
+        "id": "7",
+        "title": "Lunch",
+        "datefrom": "2019-07-04T12:00:00.000+0200",
+        "area": "Tent",
+        "description": "",
+        "dateto": "2019-07-04T13:00:00.000+0200"
+      },
+      {
+        "description": "",
         "id": "5",
-        "title": "Second activity",
-        "description": "Quisque vitae sollicitudin neque, eu iaculis velit. Morbi non semper ante. Quisque non ex libero. Suspendisse dictum molestie libero, sed mollis lorem aliquet eget. Donec molestie, quam sit amet interdum sagittis, neque lacus rutrum nunc, eget interdum neque mauris ut orci. Phasellus et ex felis. Sed et lorem in purus mollis volutpat. Proin ut dictum dui. Vivamus id orci blandit, sollicitudin lorem eu, elementum metus. Duis quis imperdiet sem. Nam tempor mauris augue, sed ultricies ipsum tincidunt a. Vestibulum ac sapien ut metus imperdiet auctor eget ac elit.",
-        "datefrom": "2019-06-03T09:15:00.000Z",
-        "dateto": "2019-06-03T11:15:00.000Z",
-        "area": "Tent",
-        "mentor": 0
+        "title": "Second Workshop Session",
+        "datefrom": "2019-07-04T13:00:00.000+0200",
+        "dateto": "2019-07-04T15:00:00.000+0200"
       },
       {
+        "description": "",
+        "id": "8",
+        "title": "Break",
+        "datefrom": "2019-07-04T15:00:00.000+0200",
+        "dateto": "2019-07-04T15:30:00.000+0200"
+      },
+      {
+        "description": "",
         "id": "6",
-        "title": "Third activity",
-        "description": "Short text",
-        "datefrom": "2019-06-03T11:15:00.000Z",
-        "dateto": "2019-06-03T12:15:00.000Z",
-        "area": "Tent",
-        "mentor": 0
+        "title": "Third Workshop Session",
+        "datefrom": "2019-07-04T15:30:00.000+0200",
+        "dateto": "2019-07-04T17:30:00.000+0200"
+      },
+      {
+        "id": "7",
+        "title": "Dinner (first shift)",
+        "datefrom": "2019-07-04T18:30:00.000+0200",
+        "area": "Restaurant",
+        "description": "",
+        "dateto": "2019-07-04T20:30:00.000+0200"
+      },
+      {
+        "id": "7",
+        "title": "Dinner (second shift)",
+        "datefrom": "2019-07-04T20:30:00.000+0200",
+        "area": "Restaurant",
+        "description": "",
+        "dateto": "2019-07-04T22:30:00.000+0200"
       }
     ]
-  }]
+  },
+  {
+    "activities": [
+      {
+        "description": "",
+        "id": "2",
+        "title": "Breakfast",
+        "datefrom": "2019-07-05T07:30:00.000+0200",
+        "dateto": "2019-07-05T08:30:00.000+0200",
+        "area": "Tent",
+        "mentor": 0
+      },
+      {
+        "description 2": "",
+        "id": "3",
+        "title": "Departure for Ecomare",
+        "description": "",
+        "datefrom": "2019-07-05T09:30:00.000+0200",
+        "dateto": "2019-07-05T09:30:00.000+0200",
+        "area": "Parking lot"
+      },
+      {
+        "description": "",
+        "id": "4",
+        "title": "Return from Ecomare",
+        "datefrom": "2019-07-05T13:30:00.000+0200",
+        "dateto": "2019-07-05T13:30:00.000+0200"
+      }
+    ],
+    "date": "2019-07-05T00:00:00.000+0200",
+    "title": "Social Day"
+  }
+]
