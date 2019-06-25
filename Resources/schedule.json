@@ -32,9 +32,47 @@
         "description": "Sidney and Niels welcome everyone and the mentors have short pitches to inform you which workshop to attend",
         "datefrom": "2019-07-03T09:00:00.000+0200",
         "dateto": "2019-07-03T09:30:00.000+0200",
-        "area": "Restaurant"
+        "area": "Porpoise Pond (Restaurant)"
       },
       {
+        "concurrent": [
+          {
+            "id": "31",
+            "title": "SwiftUI",
+            "description": "",
+            "datefrom": "2019-07-03T10:00:00.000+0200",
+            "dateto": "2019-07-03T12:00:00.000+0200",
+            "area": "Birdhouse",
+            "mentor": 0
+          },
+          {
+            "id": "32",
+            "title": "Combine",
+            "description": "",
+            "datefrom": "2019-07-03T10:00:00.000+0200",
+            "dateto": "2019-07-03T12:00:00.000+0200",
+            "area": "Porpoise Pond",
+            "mentor": 5
+          },
+          {
+            "id": "34",
+            "title": "iPadOS",
+            "description": "",
+            "datefrom": "2019-07-03T10:00:00.000+0200",
+            "dateto": "2019-07-03T12:00:00.000+0200",
+            "area": "Seal Shelter",
+            "mentor": 7
+          },
+          {
+            "id": "33",
+            "title": "Accessibility",
+            "description": "",
+            "datefrom": "2019-07-03T10:00:00.000+0200",
+            "dateto": "2019-07-03T12:00:00.000+0200",
+            "area": "Sheep's Lounge",
+            "mentor": 6
+          }
+        ],
         "description": "",
         "id": "4",
         "title": "First Workshop Session",
@@ -50,6 +88,44 @@
         "dateto": "2019-07-03T13:00:00.000+0200"
       },
       {
+        "concurrent": [
+          {
+            "id": "31",
+            "title": "SwiftUI",
+            "description": "",
+            "datefrom": "2019-07-03T13:00:00.000+0200",
+            "dateto": "2019-07-03T15:00:00.000+0200",
+            "area": "Birdhouse",
+            "mentor": 0
+          },
+          {
+            "id": "32",
+            "title": "Combine",
+            "description": "",
+            "datefrom": "2019-07-03T13:00:00.000+0200",
+            "dateto": "2019-07-03T15:00:00.000+0200",
+            "area": "Porpoise Pond",
+            "mentor": 5
+          },
+          {
+            "id": "34",
+            "title": "iPadOS",
+            "description": "",
+            "datefrom": "2019-07-03T13:00:00.000+0200",
+            "dateto": "2019-07-03T15:00:00.000+0200",
+            "area": "Seal Shelter",
+            "mentor": 7
+          },
+          {
+            "id": "33",
+            "title": "Accessibility",
+            "description": "",
+            "datefrom": "2019-07-03T13:00:00.000+0200",
+            "dateto": "2019-07-03T15:00:00.000+0200",
+            "area": "Sheep's Lounge",
+            "mentor": 6
+          }
+        ],
         "description": "",
         "id": "5",
         "title": "Second Workshop Session",
@@ -64,6 +140,44 @@
         "dateto": "2019-07-03T15:30:00.000+0200"
       },
       {
+        "concurrent": [
+          {
+            "id": "31",
+            "title": "SwiftUI",
+            "description": "",
+            "datefrom": "2019-07-03T15:30:00.000+0200",
+            "dateto": "2019-07-03T17:30:00.000+0200",
+            "area": "Birdhouse",
+            "mentor": 0
+          },
+          {
+            "id": "32",
+            "title": "Combine",
+            "description": "",
+            "datefrom": "2019-07-03T15:30:00.000+0200",
+            "dateto": "2019-07-03T17:30:00.000+0200",
+            "area": "Porpoise Pond",
+            "mentor": 5
+          },
+          {
+            "id": "34",
+            "title": "iPadOS",
+            "description": "",
+            "datefrom": "2019-07-03T15:30:00.000+0200",
+            "dateto": "2019-07-03T17:30:00.000+0200",
+            "area": "Seal Shelter",
+            "mentor": 7
+          },
+          {
+            "id": "33",
+            "title": "Accessibility",
+            "description": "",
+            "datefrom": "2019-07-03T15:30:00.000+0200",
+            "dateto": "2019-07-03T17:30:00.000+0200",
+            "area": "Sheep's Lounge",
+            "mentor": 6
+          }
+        ],
         "description": "",
         "id": "6",
         "title": "Third Workshop Session",
@@ -107,9 +221,47 @@
         "description": "",
         "datefrom": "2019-07-04T09:00:00.000+0200",
         "dateto": "2019-07-04T09:30:00.000+0200",
-        "area": "Restaurant"
+        "area": "Porpoise Pond (Restaurant)"
       },
       {
+        "concurrent": [
+          {
+            "id": "31",
+            "title": "The SwiftUI essentials",
+            "description": "",
+            "datefrom": "2019-07-04T10:00:00.000+0200",
+            "dateto": "2019-07-04T12:00:00.000+0200",
+            "area": "Birdhouse",
+            "mentor": 4
+          },
+          {
+            "id": "32",
+            "title": "Core Haptics",
+            "description": "",
+            "datefrom": "2019-07-04T10:00:00.000+0200",
+            "dateto": "2019-07-04T12:00:00.000+0200",
+            "area": "Porpoise Pond",
+            "mentor": 1
+          },
+          {
+            "id": "34",
+            "title": "Collection Views",
+            "description": "",
+            "datefrom": "2019-07-04T10:00:00.000+0200",
+            "dateto": "2019-07-04T12:00:00.000+0200",
+            "area": "Seal Shelter",
+            "mentor": 2
+          },
+          {
+            "id": "33",
+            "title": "Catalyst",
+            "description": "",
+            "datefrom": "2019-07-04T10:00:00.000+0200",
+            "dateto": "2019-07-04T12:00:00.000+0200",
+            "area": "Sheep's Lounge",
+            "mentor": 3
+          }
+        ],
         "description": "",
         "id": "4",
         "title": "First Workshop Session",
@@ -125,6 +277,44 @@
         "dateto": "2019-07-04T13:00:00.000+0200"
       },
       {
+        "concurrent": [
+          {
+            "id": "31",
+            "title": "The SwiftUI essentials",
+            "description": "",
+            "datefrom": "2019-07-04T13:00:00.000+0200",
+            "dateto": "2019-07-04T15:00:00.000+0200",
+            "area": "Birdhouse",
+            "mentor": 4
+          },
+          {
+            "id": "32",
+            "title": "Core Haptics",
+            "description": "",
+            "datefrom": "2019-07-04T13:00:00.000+0200",
+            "dateto": "2019-07-04T15:00:00.000+0200",
+            "area": "Porpoise Pond",
+            "mentor": 1
+          },
+          {
+            "id": "34",
+            "title": "Collection Views",
+            "description": "",
+            "datefrom": "2019-07-04T13:00:00.000+0200",
+            "dateto": "2019-07-04T15:00:00.000+0200",
+            "area": "Seal Shelter",
+            "mentor": 2
+          },
+          {
+            "id": "33",
+            "title": "Catalyst",
+            "description": "",
+            "datefrom": "2019-07-04T13:00:00.000+0200",
+            "dateto": "2019-07-04T15:00:00.000+0200",
+            "area": "Sheep's Lounge",
+            "mentor": 3
+          }
+        ],
         "description": "",
         "id": "5",
         "title": "Second Workshop Session",
@@ -139,6 +329,44 @@
         "dateto": "2019-07-04T15:30:00.000+0200"
       },
       {
+        "concurrent": [
+          {
+            "id": "31",
+            "title": "The SwiftUI essentials",
+            "description": "",
+            "datefrom": "2019-07-04T15:30:00.000+0200",
+            "dateto": "2019-07-04T17:30:00.000+0200",
+            "area": "Birdhouse",
+            "mentor": 4
+          },
+          {
+            "id": "32",
+            "title": "Core Haptics",
+            "description": "",
+            "datefrom": "2019-07-04T15:30:00.000+0200",
+            "dateto": "2019-07-04T17:30:00.000+0200",
+            "area": "Porpoise Pond",
+            "mentor": 1
+          },
+          {
+            "id": "34",
+            "title": "Collection Views",
+            "description": "",
+            "datefrom": "2019-07-04T15:30:00.000+0200",
+            "dateto": "2019-07-04T17:30:00.000+0200",
+            "area": "Seal Shelter",
+            "mentor": 2
+          },
+          {
+            "id": "33",
+            "title": "Catalyst",
+            "description": "",
+            "datefrom": "2019-07-04T15:30:00.000+0200",
+            "dateto": "2019-07-04T17:30:00.000+0200",
+            "area": "Sheep's Lounge",
+            "mentor": 3
+          }
+        ],
         "description": "",
         "id": "6",
         "title": "Third Workshop Session",
