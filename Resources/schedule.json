@@ -236,7 +236,7 @@
           },
           {
             "id": "32",
-            "title": "Core Haptics",
+            "title": "Haptics and Machine Learning",
             "description": "",
             "datefrom": "2019-07-04T10:00:00.000+0200",
             "dateto": "2019-07-04T12:00:00.000+0200",
@@ -289,7 +289,7 @@
           },
           {
             "id": "32",
-            "title": "Core Haptics",
+            "title": "Haptics and Machine Learning",
             "description": "",
             "datefrom": "2019-07-04T13:00:00.000+0200",
             "dateto": "2019-07-04T15:00:00.000+0200",
@@ -341,7 +341,7 @@
           },
           {
             "id": "32",
-            "title": "Core Haptics",
+            "title": "Haptics and Machine Learning",
             "description": "",
             "datefrom": "2019-07-04T15:30:00.000+0200",
             "dateto": "2019-07-04T17:30:00.000+0200",
@@ -404,7 +404,7 @@
       },
       {
         "id": "3",
-        "title": "Departure for Ecomare",
+        "title": "Social activity (optional)",
         "description": "",
         "datefrom": "2019-07-05T09:30:00.000+0200",
         "dateto": "2019-07-05T09:30:00.000+0200",
@@ -413,7 +413,7 @@
       {
         "description": "",
         "id": "4",
-        "title": "Return from Ecomare",
+        "title": "Return from social activity",
         "datefrom": "2019-07-05T13:30:00.000+0200",
         "dateto": "2019-07-05T13:30:00.000+0200"
       }
