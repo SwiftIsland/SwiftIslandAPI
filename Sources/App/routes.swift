@@ -17,9 +17,10 @@ public func routes(_ router: Router) throws {
     logger.info("Current date: \(Date())")
     logger.info("timeScheduleAvailable: \(timeScheduleAvailable)")
 
-    if Date() > timeScheduleAvailable {
-      throw Abort(.notFound, reason: "The schedule will be available at \(timeScheduleAvailable)")
-    }
+//    2019-06-27 -- Removed the check since we are not going to sercure the schedule this year
+//    if Date() < timeScheduleAvailable {
+//      throw Abort(.notFound, reason: "The schedule will be available at \(timeScheduleAvailable)")
+//    }
 
     return try getJsonFromFile("schedule.json", onRequest: req)
   }
