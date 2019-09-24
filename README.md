@@ -2,6 +2,8 @@
 
 This is the api for the [Swift Island app](https://github.com/SwiftIsland/island-app).
 
+The app is made by [Paul Peelen](https://github.com/ppeelen). The source code is available under MIT license. Please contribute!
+
 ## Endpoints
 The API is located at: [https://swiftisland.herokuapp.com](https://swiftisland.herokuapp.com). The list below informs about the endpoints available.
 
