@@ -32,6 +32,10 @@ public func routes(_ router: Router) throws {
   router.get("locations") { req -> Response in
     return try getJsonFromFile("area.json", onRequest: req)
   }
+  
+  router.get("about") { req -> Response in
+    return try getJsonFromFile("about.json", onRequest: req)
+  }
 }
 
 private func getJsonFromFile(_ file: String, onRequest req: Request) throws -> Response {
