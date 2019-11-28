@@ -4,14 +4,6 @@ import Dispatch
 import XCTest
 
 final class AppTests : XCTestCase {
-    func testNothing() throws {
-        XCTAssert(true)
-    }
-
-    static let allTests = [
-        ("testNothing", testNothing),
-    ]
-    
     func testTitoTicketRequest() {
         
         let exp = expectation(description: "Should load Tito request")
