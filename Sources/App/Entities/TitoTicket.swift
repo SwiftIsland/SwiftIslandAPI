@@ -14,6 +14,6 @@ struct TitoTickets: Decodable {
 struct TitoTicket: Decodable {
     let slug: String
     let name: String
-    let email: String
+    let email: String?
     let avatar_url: String
 }
