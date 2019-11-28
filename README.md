@@ -8,14 +8,15 @@ The app is made by [Paul Peelen](https://github.com/ppeelen). The source code is
 
 Clone this repository and run `swift run` to download the dependencies and start the server.
 
-To open the project in XCode, run `swift package generate-xcodeproj` to generate the xcode project
-
 ## Testing
 
 Use `swift test` to run the tests.
+For the `testTitoTicketRequest` test there is a environment variable `TITO_TOKEN` containing a Tito API token needed.
 
-For the `testTitoTicketRequest` test there is a environment variable `TITO_TOKEN` containing a Tito API token needed. 
+## XCode
 
+To open the project in XCode, run `swift package generate-xcodeproj` to generate the xcode project
+To add the `TITO_TOKEN` environment variable, select the "Run" scheme and go to `Product -> Scheme -> Edit Scheme...`. Then select the "Run" action, switch to the "Arguments" tab and add the TITO_TOKEN environment variable containing the Tito API key
 
 ## Endpoints
 The API is located at: [https://swiftisland.herokuapp.com](https://swiftisland.herokuapp.com). The list below informs about the endpoints available.
