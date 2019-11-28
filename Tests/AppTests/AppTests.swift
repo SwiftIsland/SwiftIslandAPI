@@ -5,7 +5,10 @@ import XCTest
 
 final class AppTests : XCTestCase {
     func testTitoTicketRequest() {
-        
+        guard let _ = ProcessInfo.processInfo.environment["TITO_TOKEN"] else {
+            print("Warning: TITO_TOKEN not set, skipping testTitoTicketRequest")
+            return
+        }
         let exp = expectation(description: "Should load Tito request")
         
         let query = SearchQuery(reference: "DXVT")
